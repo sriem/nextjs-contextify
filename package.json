@@ -51,24 +51,6 @@
       }
     ],
     "views": {
-      "explorer": [
-        {
-          "id": "nextjsContextifyExplorer",
-          "name": "Next.js Contextify",
-          "when": "workspaceFolderCount > 0"
-        }
-      ]
-    },
-    "viewsContainers": {
-      "activitybar": [
-        {
-          "id": "nextjsContextify",
-          "title": "Next.js Contextify",
-          "icon": "$(file-code)"
-        }
-      ]
-    },
-    "views": {
       "nextjsContextify": [
         {
           "id": "nextjsContextifyExplorer",
@@ -79,6 +61,15 @@
           "id": "nextjsContextifySteps",
           "name": "🚀 Generation Steps",
           "when": "workspaceFolderCount > 0"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "nextjsContextify",
+          "title": "Next.js Contextify",
+          "icon": "$(file-code)"
         }
       ]
     },
@@ -177,6 +168,7 @@
     "@types/vscode": "^1.85.0",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
     "@typescript-eslint/parser": "^8.32.1",
+    "@vscode/vsce": "^3.5.0",
     "eslint": "^9.27.0",
     "glob": "^11.0.2",
     "mocha": "^11.4.0",
