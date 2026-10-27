@@ -307,7 +307,7 @@ Generated files include:
 ## 🛠️ Development
 
 ### Prerequisites
-- Node.js 18+
+- Node.js 24.22.1+ (LTS, see `.nvmrc`)
 - VS Code 1.85.0+
 
 ### Setup

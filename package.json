@@ -5,7 +5,8 @@
   "version": "2.1.1",
   "publisher": "sriem",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.85.0",
+    "node": "^24.22.1"
   },
   "categories": [
     "Other"
@@ -164,7 +165,7 @@
   "devDependencies": {
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.10",
-    "@types/node": "^22.15.21",
+    "@types/node": "^24.19.2",
     "@types/vscode": "^1.85.0",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
     "@typescript-eslint/parser": "^8.32.1",
